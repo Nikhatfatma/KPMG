@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next *)",
+      "Bash(node --check /Users/jatinkumarkakrey/kpmg-next/app/staff/request/page.js)",
+      "Bash(node --check /Users/jatinkumarkakrey/kpmg-next/app/staff/project-review/page.js)",
+      "Bash(node --check /Users/jatinkumarkakrey/kpmg-next/app/client/project/page.js)",
+      "Bash(grep -n \"submit-bar\\\\|<\\\\/div>$\\\\|family-bottom\\\\|Submit application\" /Users/jatinkumarkakrey/kpmg-next/app/client/project/page.js)",
+      "Bash(node --check /Users/jatinkumarkakrey/kpmg-next/app/client/upload/page.js)",
+      "Bash(find /var/folders /tmp -name \"*.png\" -newer /tmp -mmin -10 2>/dev/null | head -20)",
+      "Bash(find /private/var/folders /var/folders ~/Library/Caches/claude* /tmp -type f \\\\\\( -name \"*.png\" -o -name \"*.jpg\" -o -name \"*kpmg*\" \\\\\\) -mmin -30 2>/dev/null | head -20)",
+      "Bash(ls ~/Library/Caches/ 2>/dev/null | grep -i -E \"claude|anthropic\" | head -5; ls ~/.config 2>/dev/null | grep -i claude | head -3)",
+      "Read(//Users/jatinkumarkakrey/Library/Application Support/Claude/IndexedDB/https_claude.ai_0.indexeddb.blob/1/03/**)",
+      "Bash(xxd \"/Users/jatinkumarkakrey/Library/Application Support/Claude/IndexedDB/https_claude.ai_0.indexeddb.blob/1/03/3af\")",
+      "Bash(node --check /Users/jatinkumarkakrey/kpmg-next/app/staff/template/page.js)"
+    ]
+  }
+}
